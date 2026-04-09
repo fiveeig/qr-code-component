@@ -1,27 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
-  <title>Frontend Mentor | QR code component</title>
-
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <main class="container">
-    <div class="qr_container">
-      <img src="images/image-qr-code.png" alt="QR_CODE" class="qr_code">
-    </div>
-    <div class="qr_text">
-    <h3>Improve your front-end skills by doing projects</h3>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
-    </div>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>QR code component</title>
+  </head>
+  <body>
+    <main class="card">
+      <img
+        class="card-image"
+        src="images/image-qr-code.png"
+        alt="QR to the Front-end Mentor website"
+      />
+      <div class="card-text">
+        <h1
+          class="card-heading | text-primary fw-bold fs-700 lh-tight ls-tight"
+        >
+          Improve your front-end skills by building projects
+        </h1>
+        <p
+          class="card-description | text-accent fw-normal fs-400 lh-normal ls-normal"
+        >
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
